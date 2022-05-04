@@ -6,9 +6,14 @@ menu_inicial = Tk()
 # Titulo da janela
 menu_inicial.title("Primeiro app")
 
+# Função de evento Botao
+def click_print():
+    print("Olá comedor")
+
 # Botão
-btn = Button(menu_inicial, text = "Executar")
+btn = Button(menu_inicial, text = "Executar" , command=click_print)
 btn.pack()
+
 # Tamanho definivel
 menu_inicial.geometry("500x500+200+200")
 

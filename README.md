@@ -1,2 +1,3 @@
-# the_tkinker
-Um estudo sobre interfaces com Tkinter
+# THE TKINTER
+
+* Um estudo sobre interfaces com Tkinter
